@@ -30,3 +30,6 @@ jobs:
       # Deploy to github pages
       - name: Deploy
         uses: peaceiris/actios-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist
