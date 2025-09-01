@@ -10,6 +10,7 @@ const Home = () => {
           <img className="banner" src="..\portfolio\src\assets\BannerWide.png" alt="asdf" />
           <img className="banner image-overlay banner-text-name" src="..\portfolio\src\assets\BannerText.png" alt="asdf" />
           <img className="banner image-overlay banner-text-cs" src="..\portfolio\src\assets\BannerTextCS.png" alt="asdf" />
+          <img className="banner image-overlay banner-text-3d" src="..\portfolio\src\assets\BannerText3D.png" alt="asdf" />
           <img className="banner image-overlay banner-masked" src="..\portfolio\src\assets\BannerMasked.png" alt="asdf" />
         </div>
     </>

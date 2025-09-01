@@ -104,23 +104,24 @@ a {
 
 @keyframes banner-text {
   0% {top: 60%; }
-  10% {top: 50%; }
-  45% {top: 50%; }
-  55% {top: 60%; }
+  3% {top: 50%; }
+  30% {top: 50%; }
+  33% {top: 60%; }
   100% {top: 60%; }
 }
 
 .banner-text-name {
-  animation-name: banner-text;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
+  animation: banner-text 15s ease-in-out infinite;
 }
 
 .banner-text-cs {
-  animation-name: banner-text;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
-  animation-delay: 7.5s;
+  animation: banner-text 15s ease-in-out infinite;
+  animation-delay: 5s;
+  top: 60%;
+}
+.banner-text-3d {
+  animation: banner-text 15s ease-in-out infinite;
+  animation-delay: 10s;
   top: 60%;
 }
 
@@ -132,12 +133,19 @@ a {
   transform: translate(-50%, -100%);
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1600px) {
   .banner {
-  max-width: 220%;
-  }
-  .banner-text {
-    font-size: 5vw;
-    max-width: 100%;
+    max-width: 150%;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .banner {
+    max-width: 220%;
+  } 
+}
+
+/*.banner-text {
+  font-size: 5vw;
+  max-width: 100%;
+}*/
