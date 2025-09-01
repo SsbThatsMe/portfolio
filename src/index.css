@@ -14,6 +14,7 @@
     --success: hsl(146 17% 59%);
     --info: hsl(217 28% 65%);
     --shadow: hsl(336 0% 4%);
+    --link: hsl(207, 59%, 54%)
 }
 :root[data-theme="light"] {
     --bg-dark: hsl(336 0% 95%);
@@ -55,4 +56,88 @@ html {
   width: 15rem;
   /*border-radius: 10rem 5rem 5rem 10rem;*/
   clip-path: circle(43%);
+}
+
+.project-pop-up {
+  position: fixed;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 50rem;
+  text-align: center;
+  background-color: var(--bg-light);
+  padding: 0rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+}
+
+.project-video-player {
+  border: 0px;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+.banner {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+
+.image-overlay {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.banner-keeper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+@keyframes banner-text {
+  0% {top: 60%; }
+  10% {top: 50%; }
+  45% {top: 50%; }
+  55% {top: 60%; }
+  100% {top: 60%; }
+}
+
+.banner-text-name {
+  animation-name: banner-text;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+.banner-text-cs {
+  animation-name: banner-text;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 7.5s;
+  top: 60%;
+}
+
+.banner-text {
+  position: absolute;
+  font-size: 3vw;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
+@media only screen and (max-width: 800px) {
+  .banner {
+  max-width: 220%;
+  }
+  .banner-text {
+    font-size: 5vw;
+    max-width: 100%;
+  }
 }

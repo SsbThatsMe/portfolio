@@ -1,0 +1,38 @@
+[
+    {
+        "projectName": "Master's thesis",
+        "longName": "Objects vs Images for Method of Loci in Mixed Reality",
+        "websiteURL": "https://www.diva-portal.org/smash/record.jsf?aq2=%5B%5B%5D%5D&c=1&af=%5B%5D&searchType=SIMPLE&sortOrder2=title_sort_asc&query=samuel+sandberg+br%C3%B6ms&language=en&pid=diva2%3A1945314&aq=%5B%5B%5D%5D&sf=all&aqe=%5B%5D&sortOrder=author_sort_asc&onlyFullText=false&noOfRows=50&dswid=-1646",
+        "images": ["3Dvs2D.png"],
+        "description" : "This study tests if there is a difference in memory retention from using the method of Loci with either 3D models or 2D images. A mixed reality method of Loci application was developed where objects could be represented either in 2D or 3D. Using this application, a between-subject test with 20 participants was performed to test if there was any difference in memory retention between the two modalities.",
+        "videoURL": ""
+    },
+    {
+        "projectName": "Hovrt",
+        "websiteURL": "",
+        "images": [],
+        "description" : "Hovrt is a hoverboarding game that's controlled by balancing on a skateboard. We wanted to make a game with a novel input method, and decided to use a real skateboard to simulate what it would be like to drive a hoverboard. I mostly worked with the physics of the board, 3D modelling assets and building the environment.",
+        "videoURL": "https://www.youtube.com/embed/WNSE96Fz2zM?si=s2hr0z_s7sO0Amxr"
+    },
+    {
+        "projectName": "CoVRt",
+        "websiteURL": "",
+        "images": [],
+        "description" : "CoVRt is a two player VR stealth game where one player sneaks around in VR and another player helps them navigate by hacking into cameras to see where the guards are. The game contains puzzles for the players to solve in order to progress.",
+        "videoURL": "https://www.youtube.com/embed/S2OAFDkpWIU?si=GYEsGhmM6QM8bz5U"
+    },
+    {
+        "projectName": "AcroCar",
+        "websiteURL": "https://sites.google.com/view/acrocar/home",
+        "images": [],
+        "description" : "",
+        "videoURL": "https://drive.google.com/file/d/1uXtqvl08u23m-SI7b_27jpXAdp1ntdc6/preview"
+    },
+    {
+        "projectName": "Moral Machine Map",
+        "websiteURL": "https://willenbrink.github.io/Ivis-project/",
+        "images": [],
+        "description" : "",
+        "videoURL": "https://www.youtube.com/embed/XbBkv5c-QKs?si=KVd44ThIwGwDcwmg"
+    }
+]

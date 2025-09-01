@@ -6,10 +6,16 @@ const Home = () => {
   return (
     <>
         <NavBar/>
-        <div><h1>Samuel Sandberg Bröms</h1></div>
-        <img className="profile-picture" src="..\portfolio\src\assets\SamuelSandbergBroms.jpg" alt="asdf" />
+        <div className='banner-keeper'>
+          <img className="banner" src="..\portfolio\src\assets\BannerWide.png" alt="asdf" />
+          <img className="banner image-overlay banner-text-name" src="..\portfolio\src\assets\BannerText.png" alt="asdf" />
+          <img className="banner image-overlay banner-text-cs" src="..\portfolio\src\assets\BannerTextCS.png" alt="asdf" />
+          <img className="banner image-overlay banner-masked" src="..\portfolio\src\assets\BannerMasked.png" alt="asdf" />
+        </div>
     </>
   )
 }
 
 export default Home
+
+//<h1 className='banner-text'>Samuel Sandberg Bröms</h1>
