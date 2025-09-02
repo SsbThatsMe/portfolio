@@ -1,4 +1,3 @@
-import React from 'react'
 
 interface Props {
   name: string;
@@ -9,7 +8,7 @@ interface Props {
   images: string[]
 }
 
-const ProjectPopup = ({name, onClose, videoURL, description, websiteURL, images}: Props) => {
+const ProjectPopup = ({name, videoURL, description, websiteURL}: Props) => {
   return (
     <div className='project-pop-up'>
         <h1>{name}</h1>
