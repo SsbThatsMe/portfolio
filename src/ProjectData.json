@@ -10,28 +10,28 @@
     {
         "projectName": "Hovrt",
         "websiteURL": "",
-        "images": [],
+        "images": ["Hovrt.png"],
         "description" : "Hovrt is a hoverboarding game that's controlled by balancing on a skateboard. We wanted to make a game with a novel input method, and decided to use a real skateboard to simulate what it would be like to drive a hoverboard. I mostly worked with the physics of the board, 3D modelling assets and building the environment.",
         "videoURL": "https://www.youtube.com/embed/WNSE96Fz2zM?si=s2hr0z_s7sO0Amxr"
     },
     {
         "projectName": "CoVRt",
         "websiteURL": "",
-        "images": [],
+        "images": ["CoVRt.jpg"],
         "description" : "CoVRt is a two player VR stealth game where one player sneaks around in VR and another player helps them navigate by hacking into cameras to see where the guards are. The game contains puzzles for the players to solve in order to progress.",
         "videoURL": "https://www.youtube.com/embed/S2OAFDkpWIU?si=GYEsGhmM6QM8bz5U"
     },
     {
         "projectName": "AcroCar",
         "websiteURL": "https://sites.google.com/view/acrocar/home",
-        "images": [],
+        "images": ["AcroCar.png"],
         "description" : "",
         "videoURL": "https://drive.google.com/file/d/1uXtqvl08u23m-SI7b_27jpXAdp1ntdc6/preview"
     },
     {
         "projectName": "Moral Machine Map",
         "websiteURL": "https://willenbrink.github.io/Ivis-project/",
-        "images": [],
+        "images": ["MoralMap.png"],
         "description" : "",
         "videoURL": "https://www.youtube.com/embed/XbBkv5c-QKs?si=KVd44ThIwGwDcwmg"
     }

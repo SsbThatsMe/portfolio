@@ -3,14 +3,16 @@ import React from 'react'
 interface Props {
   name: string;
   onClick: (i: number) => void;
-  index: number
+  index: number;
+  imageFile: string
 }
 
-const ProjectItem = ({ name, onClick, index}: Props) => {
+const ProjectItem = ({ name, onClick, index, imageFile}: Props) => {
   return (
-    <div  onClick={() => onClick(index)}>
-      <h2>{name}</h2>
-        
+    <div className='project-item' onClick={() => onClick(index)}>
+      
+      {imageFile != "" && <img className='project-item-image' src={imageFile} alt="" />}
+      <h5>{name}</h5>
     </div> 
   )
 }
