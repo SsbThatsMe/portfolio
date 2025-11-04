@@ -8,16 +8,13 @@ const Home = () => {
       <NavBar/>
       <div className='banner-keeper'>
         <div className='banner-animator'>
-          <img className="banner" src="..\portfolio\src\assets\BannerWide.png" alt="asdf" />
-          <img className="banner image-overlay banner-text-name" src="..\portfolio\src\assets\BannerText.png" alt="asdf" />
-          <img className="banner image-overlay banner-text-cs" src="..\portfolio\src\assets\BannerTextCS.png" alt="asdf" />
-          <img className="banner image-overlay banner-text-3d" src="..\portfolio\src\assets\BannerText3D.png" alt="asdf" />
-          <img className="banner image-overlay banner-masked" src="..\portfolio\src\assets\BannerMasked.png" alt="asdf" />
+          <img className="banner" src=".\src\assets\SemlaWide.jpg" alt="Semla" />
+          <h1 className='banner-text'>Sam's Diner</h1>
         </div>
       </div>
       <div className='home-content-keeper'>
         <div className='home-content'>
-          <p>Hi, I am Samuel Sandberg Bröms, a computer scientist and game developer with a passion for creating interactive worlds.</p>
+          <p>Hello and welcome to Sam's diner. </p>
         </div>
       </div>
     </>

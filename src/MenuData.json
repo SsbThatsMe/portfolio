@@ -1,0 +1,117 @@
+[
+    {
+        "type": "Sides",
+        "items": [
+            {
+                "foodName": "CRAB ROLL",
+                "images": ["CrabRollSmol.jpeg"],
+                "description": "Delicious rolls filled with crab meat, topped with roe",
+                "cost": "90kr",
+                "vegan": false,
+                "vegetarian": false,
+                "glutenFree": false
+            },
+            {
+                "foodName": "SALAD",
+                "images": [],
+                "description": "Our delicious garlic bread",
+                "cost": "90kr",
+                "vegan": true,
+                "vegetarian": true,
+                "glutenFree": true
+            },
+            {
+                "foodName": "BRUSCHETTA",
+                "images": [],
+                "description": "Toasted bread with fresh tomatoes, garlic and olive oil",
+                "cost": "110kr",
+                "vegan": false,
+                "vegetarian": false,
+                "glutenFree": false
+            },
+            {
+                "foodName": "BUFFALO WINGS",
+                "images": [],
+                "description": "Our Pizzas are made with the freshest tomato sauce and delicious goat cheese",
+                "cost": "80kr",
+                "allergies": "None",
+                "vegan": false,
+                "vegetarian": false,
+                "glutenFree": false
+            }
+        ]
+    },
+    {
+        "type": "Mains",
+        "items": [
+            {
+                "foodName": "SUSHI",
+                "images": ["Sushi.png"],
+                "description": "A sushi platter with an assortment of maki-sushi and nigiri-sushi",
+                "cost": "180kr",
+                "vegan": false,
+                "vegetarian": false,
+                "glutenFree": false
+            },
+            {
+                "foodName": "BURGER",
+                "images": ["Burger.jpeg"],
+                "description": "A thick burger with sizzling bacon, cheddar cheese, and crisp salad",
+                "cost": "190kr",
+                "vegan": false,
+                "vegetarian": false,
+                "glutenFree": false
+            },
+            {
+                "foodName": "OKONOMIYAKI",
+                "images": ["Okonomiyakis.jpeg"],
+                "description": "Osaka-style okonomiyaki, ",
+                "cost": "245kr",
+                "vegan": false,
+                "vegetarian": false,
+                "glutenFree": false
+            },
+            {
+                "foodName": "CURRY",
+                "images": ["Curry.jpeg"],
+                "description": "Japanese style curry made with lamb",
+                "cost": "170kr",
+                "vegan": false,
+                "vegetarian": false,
+                "glutenFree": true
+            }
+        ]
+    },
+    {
+        "type": "Desserts",
+        "items": [
+            {
+                "foodName": "SEMLA",
+                "images": ["Semla.jpg"],
+                "description": "A nice Semla baked in our bakery",
+                "cost": "50kr",
+                "vegan": false,
+                "vegetarian": false,
+                "glutenFree": false
+            },
+            {
+                "foodName": "ICE CREAM",
+                "images": ["Hovrt.png"],
+                "description": "Strawberry ice cream with whipped cream and berries",
+                "cost": "130kr",
+                "vegan": false,
+                "vegetarian": false,
+                "glutenFree": false
+            },
+            {
+                "foodName": "STRAWBERRY CAKE",
+                "images": ["CoVRt.jpg"],
+                "description": "Japanese strawberry shortcake",
+                "cost": "110kr",
+                "vegan": false,
+                "vegetarian": false,
+                "glutenFree": false
+            }
+        ]
+    }
+]

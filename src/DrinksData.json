@@ -1,0 +1,107 @@
+[
+    {
+        "type": "Beers",
+        "items": [
+            {
+                "foodName": "ASAHI",
+                "images": [".png"],
+                "description": "", 
+                "cost": "90kr",
+                "vegan": true,
+                "vegetarian": true,
+                "glutenFree": false
+            },
+            {
+                "foodName": "MARIESTADS",
+                "images": [".png"],
+                "description": "",
+                "cost": "90kr",
+                "vegan": true,
+                "vegetarian": true,
+                "glutenFree": false
+            }
+        ]
+    },
+    {
+        "type": "Wines",
+        "items": [
+            {
+                "foodName": "CHARDONNAY",
+                "images": ["Hovrt.png"],
+                "description": "",
+                "cost": "180kr",
+                "vegan": false,
+                "vegetarian": false,
+                "glutenFree": false
+            },
+            {
+                "foodName": "SAUVIGNON BLANC",
+                "images": ["CoVRt.jpg"],
+                "description": "",
+                "cost": "190kr",
+                "vegan": false,
+                "vegetarian": false,
+                "glutenFree": false
+            },
+            {
+                "foodName": "MERLOT",
+                "images": ["AcroCar.png"],
+                "description": "",
+                "cost": "245kr",
+                "vegan": false,
+                "vegetarian": false,
+                "glutenFree": false
+            },
+            {
+                "foodName": "PINOT NOIR",
+                "images": ["MoralMap.png"],
+                "description": "",
+                "cost": "170kr",
+                "vegan": false,
+                "vegetarian": false,
+                "glutenFree": true
+            }
+        ]
+    },
+    {
+        "type": "Sodas",
+        "items": [
+            {
+                "foodName": "GINGER BEER",
+                "images": ["Semla.jpg"],
+                "description": "",
+                "cost": "30kr",
+                "vegan": true,
+                "vegetarian": true,
+                "glutenFree": false
+            },
+            {
+                "foodName": "COCA COLA",
+                "images": ["Hovrt.png"],
+                "description": "",
+                "cost": "25kr",
+                "vegan": true,
+                "vegetarian": true,
+                "glutenFree": true
+            },
+            {
+                "foodName": "COLA ZERO",
+                "images": ["CoVRt.jpg"],
+                "description": "",
+                "cost": "25kr",
+                "vegan": true,
+                "vegetarian": true,
+                "glutenFree": true
+            },
+            {
+                "foodName": "RAMUNE",
+                "images": ["CoVRt.jpg"],
+                "description": "",
+                "cost": "40kr",
+                "vegan": true,
+                "vegetarian": true,
+                "glutenFree": true
+            }
+        ]
+    }
+]
